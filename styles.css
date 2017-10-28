@@ -1,7 +1,8 @@
 body, html {
-  font-family: serif;
+  font-family: 'Hind Vadodara', sans-serif;
   margin:0;
   padding:0;
+  font-size: 20px;
 }
 
 header {
@@ -17,7 +18,7 @@ ul {
 }
 
 figure {
-  margin:25px;
+  margin:25px 25px 10px 25px;
 }
 
 figcaption {
@@ -26,14 +27,14 @@ figcaption {
 
 i {
   margin-right: 15px;
-  color: #ffae00;
+  color: #ff702d;
 }
 
 .admin {
   margin: 0 0 20px 0;
   padding:0;
   text-align: right;
-  color: #ffae00;
+  color: #ff702d;
 }
 
 .fa-id-badge {
@@ -47,6 +48,7 @@ i {
 }
 
 .nav {
+  flex:4;
   margin: 0;
   display: inline-block;
   text-align: left;
@@ -63,7 +65,14 @@ figure:hover {
   color: #FFF;
 }
 .web-title {
+  flex:1;
   text-align: right;
   display: inline-block;
   margin:0 0 7px 0;
+}
+
+.fake-logo{
+  flex:1;
+  width:40%;
+  height: auto;
 }
