@@ -3,9 +3,12 @@ body, html {
   margin:0;
   padding:0;
   font-size: 20px;
+  background: #EFF0F1;
+  line-height: 120%;
 }
 
-header {
+
+.page-header {
   background:#2C2C2A;
   color: white;
   padding: 10px;
@@ -76,3 +79,57 @@ figure:hover {
   width:40%;
   height: auto;
 }
+.team-title {
+  padding-left: 10px;
+}
+.main {
+  padding: 0 10px;
+  display: flex;
+}
+
+.racer {
+  background:#ffe8d1;
+  width: 350px;
+  height:auto;
+  overflow: hidden;
+  display: inline;
+  margin: 0 20px 20px 0;
+}
+
+.racer-image {
+  color: white;
+  padding: 10px 20px 150px 10px;
+}
+
+.fa-share-square-o {
+  margin: 10px;
+}
+
+.views {
+  text-align: right;
+  float: right;
+}
+
+.view-text {
+  display:inline-block;
+  font-size: 0.7em;
+  font-weight: lighter;
+  margin: 0 0 10px 0;
+}
+
+.view-count {
+  margin:0;
+  text-align: center;
+  font-size: 1.9em;
+}
+
+.racer-info {
+  padding: 0px 10px 10px 10px;
+}
+
+/*RACER IMAGES*/
+.sagan {
+  background-image: url('images/sagan.jpg');
+  background-size: cover;
+}
+
