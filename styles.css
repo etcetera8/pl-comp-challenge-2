@@ -1,0 +1,69 @@
+body, html {
+  font-family: serif;
+  margin:0;
+  padding:0;
+}
+
+header {
+  background:#2C2C2A;
+  color: white;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  margin:25px;
+}
+
+figcaption {
+  display: inline-block;
+}
+
+i {
+  margin-right: 15px;
+  color: #ffae00;
+}
+
+.admin {
+  margin: 0 0 20px 0;
+  padding:0;
+  text-align: right;
+  color: #ffae00;
+}
+
+.fa-id-badge {
+  color: white;
+}
+
+.nav-logo-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.nav {
+  margin: 0;
+  display: inline-block;
+  text-align: left;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: gray;
+}
+
+figure:hover {
+  color: #FFF;
+}
+.web-title {
+  text-align: right;
+  display: inline-block;
+  margin:0 0 7px 0;
+}
