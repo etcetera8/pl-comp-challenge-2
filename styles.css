@@ -3,10 +3,9 @@ body, html {
   margin:0;
   padding:0;
   font-size: 20px;
-  background: #EFF0F1;
+  background: #bbb;
   line-height: 120%;
 }
-
 
 .page-header {
   background:#2C2C2A;
@@ -24,8 +23,13 @@ figure {
   margin:25px 25px 10px 25px;
 }
 
+figure:hover {
+  color:white;
+}
+
 figcaption {
   display: inline-block;
+  margin-right: 5px;
 }
 
 i {
@@ -40,6 +44,10 @@ i {
   color: #ff702d;
 }
 
+.admin figcaption {
+  font-size: .8em;
+}
+
 .fa-id-badge {
   color: white;
 }
@@ -48,6 +56,7 @@ i {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  margin-bottom: 20px;
 }
 
 .nav {
@@ -55,6 +64,7 @@ i {
   margin: 0;
   display: inline-block;
   text-align: left;
+  align-self: flex-end;
 }
 
 .nav li {
@@ -64,41 +74,62 @@ i {
   color: gray;
 }
 
-figure:hover {
-  color: #FFF;
+.name-logo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
+
+
 .web-title {
   flex:1;
   text-align: right;
-  display: inline-block;
-  margin:0 0 7px 0;
+  align-self: center;
+  margin:0;
 }
 
-.fake-logo{
-  flex:1;
-  width:40%;
-  height: auto;
-}
+
 .team-title {
-  padding-left: 10px;
+  padding-left: 25px;
 }
+
+
+/*MAINCONTENT*/
 .main {
-  padding: 0 10px;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .racer {
-  background:#ffe8d1;
+  background:#fff;
   width: 350px;
-  height:auto;
+  min-width: 250px;
   overflow: hidden;
   display: inline;
-  margin: 0 20px 20px 0;
+  margin: 10px 20px 20px 10px;
+  box-shadow: 2px 1px 1px gray;
+
 }
 
+/*RACER HEADER*/
 .racer-image {
   color: white;
-  padding: 10px 20px 150px 10px;
+  padding: 10px 20px 130px 10px;
 }
 
 .fa-share-square-o {
@@ -113,7 +144,7 @@ figure:hover {
 .view-text {
   display:inline-block;
   font-size: 0.7em;
-  font-weight: lighter;
+  font-weight: 300;
   margin: 0 0 10px 0;
 }
 
@@ -121,15 +152,109 @@ figure:hover {
   margin:0;
   text-align: center;
   font-size: 1.9em;
+  font-weight: 300;
 }
 
 .racer-info {
-  padding: 0px 10px 10px 10px;
+  padding: 0px 20px 10px 20px;
 }
 
+/*RACER INFO*/
+.racer-name {
+  margin: 15px 0 0 0;
+}
+
+.date {
+  margin: 0 auto;
+  font-size: 0.7em;
+  color: #9e9e9e;
+}
+
+.link {
+  padding:5px;
+  background-color: #e2e2e2;
+  word-wrap: break-word;
+  border-radius: 1%;
+}
+
+.next-race{
+  margin:0;
+}
+
+.next-race-name {
+  margin:0;
+}
+
+.records{
+  margin: 15px 0 10px 0;
+}
+
+.record-count {
+  margin:0 0 20px 0;
+  font-size: 1.9em;
+  color: #00A7E1;
+}
 /*RACER IMAGES*/
 .sagan {
   background-image: url('images/sagan.jpg');
   background-size: cover;
 }
+
+.cav {
+  background-image: url('images/cav.jpg');
+  background-size: cover;
+}
+
+.teklehaimanot {
+  background-image: url('images/teklehaimanot.jpg');
+  background-size: cover;
+}
+
+.phinney {
+  background-image: url('images/phinney.jpg');
+  background-size: cover; 
+}
+
+.gva {
+  background-image: url('images/gva.png');
+  background-size: cover; 
+}
+
+.gaviria {
+  background-image: url('images/gaviria.jpg');
+  background-size: cover;
+}
+
+.oss {
+  background-image: url('images/oss.png');
+  background-size: cover;
+}
+
+.beppu {
+  background-image: url('images/beppu.jpg');
+  background-size: cover;
+}
+
+
+@media screen and (max-width: 450px) {
+
+  .page-header {
+    display:flex;
+    flex-flow: column;
+  }
+
+  figure.admin {
+    margin: 0 0 20px 25px;
+    text-align: left;
+  }
+
+  .name-logo {
+    margin-right:25px;
+    align-self: flex-start;
+    text-align: center;
+    display: block;
+  }
+}
+
+
 
