@@ -91,7 +91,6 @@ i {
   padding-left: 25px;
 }
 
-
 /*MAINCONTENT*/
 .main {
   margin: 0;
@@ -192,6 +191,7 @@ i {
   font-size: 1.9em;
   color: #00A7E1;
 }
+
 /*RACER IMAGES*/
 .sagan {
   background-image: url('images/sagan.jpg');
@@ -232,7 +232,6 @@ i {
   background-image: url('images/beppu.jpg');
   background-size: cover;
 }
-
 
 @media screen and (max-width: 450px) {
 
