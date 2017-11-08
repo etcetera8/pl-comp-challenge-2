@@ -4,6 +4,7 @@ Parker Lindley
 
 This is the static compt 2 project for 1710 FEE. We were tasked with making a static webpage that resembles the mock given. We were given creative liberty with images and colors.
 
+[GitHub Pages] (https://etcetera8.github.io/pl-comp-challenge-2/)
 
 
 - Given Comp
